@@ -294,7 +294,7 @@ module idler()
 					}
 					
 					//a bunch of washers for illustration
-					for(i=[1:6])
+					%for(i=[1:6])
 					{
 						translate([0,0,-2-(i*1.2)])
 						{
@@ -341,7 +341,7 @@ module idler()
 	
 	
 	//a bunch of washers for illustration
-	translate([5,2,33.5])
+	%translate([5,2,33.5])
 	{
 		rotate([-90,0,0])
 		{
